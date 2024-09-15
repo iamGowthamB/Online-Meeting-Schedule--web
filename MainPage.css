@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 10px rgb(red, green, blue);
+    border-radius: 8px;
+  }
+  
+ .container h1 {
+    color: #FF69B4;
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #FF69B4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #ff85c4;
+  }
+  
+  .meetings-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .meeting {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+  }
+  
+  .meeting:last-child {
+    border-bottom: none;
+  }
+  
+  .meeting strong {
+    font-size: 1.1em;
+  }
+  
+  .meeting button {
+    margin-top: 5px;
+    background-color: #ff85c4;
+  }
+  
+  .meeting button:hover {
+    background-color: #ff9fcf;
+  }
+  
