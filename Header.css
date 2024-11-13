@@ -1,107 +1,107 @@
 @keyframes colorChange {
-  0% { color: #ff6f61; }
-  25% { color: #6b5b95; }
-  50% { color: #88b04b; }
-  75% { color: #ffcc5c; }
-  100% { color: #ff6f61; }
-}
-
-.header {
-  position: fixed;  /* Fixes the header at the top */
-  top: 0;
-  left: 0;
-  width: 100%;  /* Ensures the header spans the full width of the page */
-  height: 70px;
-  z-index: 1000;  /* Keeps the header on top of other content */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: white;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for a layered effect */
+    0% { color: #ff6f61; }
+    25% { color: #6b5b95; }
+    50% { color: #88b04b; }
+    75% { color: #ffcc5c; }
+    100% { color: #ff6f61; }
+  }
   
-}
-
-.header__left, .header__center, .header__right {
-  display: flex;
-  align-items: center;
-}
-
-/* Additional CSS remains the same as before */
-
-.header__appName {
-  font-size: 24px;
-  font-weight: bold;
- 
-}
-
-.scheduler {
-  animation: colorChange 5s infinite;
-  padding-left:20px ;
- 
-}
-
-.header__center {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__searchInput {
-  flex: 1;
-  border: none;
-  outline: none;
-  padding: 5px;
-  font-size: 18px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  max-width: 300px;
-  margin-right: 10px;
-}
-
-.header__searchIcon {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-.nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #0e0e0e;
-  font-size: 18px;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-}
-.header__time {
+  .header {
+    position: fixed;  /* Fixes the header at the top */
+    top: 0;
+    left: 0;
+    width: 100%;  /* Ensures the header spans the full width of the page */
+    height: 70px;
+    z-index: 1000;  /* Keeps the header on top of other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for a layered effect */
+    
+  }
+  
+  .header_left, .headercenter, .header_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Additional CSS remains the same as before */
+  
+  .header__appName {
+    font-size: 24px;
+    font-weight: bold;
+   
+  }
+  
+  .scheduler {
+    animation: colorChange 5s infinite;
+    padding-left:20px ;
+   
+  }
+  
+  .header__center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    max-width: 300px;
+    margin-right: 10px;
+  }
+  
+  .header__searchIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 18px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  .header__time {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 40px;
+  }
+  
+  .header_right .header_link {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #0078d4;
+    padding-right: 40px;
+  }
+  .header_right .header_link .Logout
+  {
+  padding-right:5px;
   font-size: 20px;
-  margin-left: 10px;
-  padding-left: 40px;
-}
-
-.header__right .header__link {
-  margin-left: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  color: #0078d4;
-  padding-right: 40px;
-}
-.header__right .header__link .Logout
-{
-padding-right:5px;
-font-size: 20px;
-text-align: center;
-
-}
-
-.header__right .header__link:hover {
-  text-decoration: underline;
-}
-
-body {
-  margin: 0;
-  padding-top: 60px;  /* Prevents the content from being hidden under the header */
-}
+  text-align: center;
+  
+  }
+  
+  .header_right .header_link:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 60px;  /* Prevents the content from being hidden under the header */
+  }
