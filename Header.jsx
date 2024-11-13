@@ -36,7 +36,7 @@ function Header() {
           <a href="#how-it-works">How It Works</a>
           <a href="#testimonials">Testimonials</a>
           <a href="#contact">Contact</a>
-          <Link to="/login" className="login" onClick={onchange}> Sign In</Link>
+          <Link to="/login" className="login" onClick={onchange}> Sign out</Link>
         </nav>
 
     </div>
