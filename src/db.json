@@ -1,0 +1,36 @@
+{
+  "meetings": [
+    {
+      "id": "06f5",
+      "title": "meet1",
+      "date": "2024-10-26",
+      "participants": "4"
+    },
+    {
+      "id": "06f6",
+      "title": "ff",
+      "date": "2024-10-26",
+      "participants": "4"
+    },
+    {
+      "id": "06f7",
+      "title": "react",
+      "date": "2024-10-26",
+      "participants": "4"
+    }
+  ],
+  "users": [
+    {
+      "id": "25ec",
+      "username": "gowtham ",
+      "email": "727723eucs065@skcet.ac.in",
+      "password": "123"
+    },
+    {
+      "id": "a020",
+      "username": "darsan",
+      "email": "darsan@gmail.com",
+      "password": "123"
+    }
+  ]
+}
