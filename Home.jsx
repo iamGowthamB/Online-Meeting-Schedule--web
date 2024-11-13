@@ -27,7 +27,7 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="features">
+      {/* <section id="features" className="features">
         <h2>Features</h2>
         <div className="feature-list">
           <div className="feature-item">
@@ -43,10 +43,10 @@ const Home = () => {
             <p>Receive reminders before your meetings.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="how-it-works">
+      {/* <section id="how-it-works" className="how-it-works">
         <h2>How It Works</h2>
         <div className="steps">
           <div className="step-item">
@@ -62,10 +62,10 @@ const Home = () => {
             <p>Send invites and receive confirmations instantly.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="testimonials">
+      {/* <section id="testimonials" className="testimonials">
         <h2>What Our Users Say</h2>
         <div className="testimonial-list">
           <div className="testimonial-item">
@@ -78,10 +78,10 @@ const Home = () => {
             <p>"Automatic reminders ensure I never miss a meeting." - Alex Johnson</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
-      <section id="contact" className="contact">
+      {/* <section id="contact" className="contact">
         <h2>Contact Us</h2>
         <form id="contactForm">
           <input type="text" id="name" name="name" placeholder="Your Name" required />
@@ -89,10 +89,10 @@ const Home = () => {
           <textarea id="message" name="message" placeholder="Your Message" required></textarea>
           <button type="submit" className="submit-button">Send Message</button>
         </form>
-      </section>
+      </section> */}
 
       {/* Modal */}
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <div id="modal" className="modal">
           <div className="modal-content">
             <span className="close-button" onClick={closeModal}>&times;</span>
@@ -101,10 +101,10 @@ const Home = () => {
             <Link to="/signup" className="cta-button" onClick={changepage}>Sign Up</Link>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Footer */}
-      <footer className="footer">
+      {/* <footer className="footer">
         <div className="footer-links">
           <a href="#privacy">Privacy Policy</a>
           <a href="#terms">Terms of Service</a>
@@ -116,7 +116,7 @@ const Home = () => {
           <a href="#linkedin">LinkedIn</a>
         </div>
         <p>&copy; 2024 Meeting Scheduler. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
